@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b72279e5c604f5282c79e775b25b700" Name="Diagram1">
+        <EntityTypeShape EntityType="UniversityModel.Classroom" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.HeadOfTheDepartament" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Lesson" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.MainInfoTable" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Teacher" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="UniversityModel.MainInfoTable_idClassroom_Classroom_NumberClass" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.MainInfoTable_idHeadOfTheDepartament_HeadOfTheDepartament_NumberManager" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.MainInfoTable_idLesson_Lesson_NumberDiscipline" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.MainInfoTable_idTeacher_Teacher_NumberTeacher" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
